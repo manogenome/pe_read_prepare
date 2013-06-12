@@ -3,7 +3,7 @@
 # Script        : pe_read_prepare.0.1.pl
 # Date          : June 03, 2013
 # Usage         : perl ~/pe_read_prepare.0.1.pl [options] <READ1> <READ2> <Output_Prefix>
-# Author  : Manojkumar Sumathiselvaraju
+# Author  	: Manojkumar Sumathiselvaraju
 # Contact	: manojsbiotech [at] gmail [dot] com
 # Institute	: Next Generation Genomics Facility, C-CAMP, NCBS-TIFR, Bangalore, India
 
@@ -15,7 +15,7 @@ if ($#ARGV < 0){
 	how_to_use();
 }
 
-my ($s, $s_r1, $s_r2, $l, $l_r1, $l_r2, $Q, $q, $p, $n);
+my ($s, $s_r1, $s_r2, $l, $l_r1, $l_r2, $e, $q, $p, $n);
 
 GetOptions ('s=i'	=> \$s,
 	    's_r1=i'	=> \$s_r1,
