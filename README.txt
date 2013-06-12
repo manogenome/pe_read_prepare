@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------------------
 
-PE_READ_PREPARE.pl: Preprocessing of paired-end data for de novo genome assembly
+PE_READ_PREPARE.pl: A paired-end preprocessing script for de novo genome assembly
 <Manojkumar Sumathiselvaraju>
 
 Introduction:
