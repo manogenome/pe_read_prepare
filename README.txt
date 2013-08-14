@@ -47,9 +47,9 @@ Optional Parameters:
 -s_r1   <integer>       <read 1 trim start position>            default (1)
 -s_r2   <integer>       <read 2 trim start position>            default (1)
 
--l      <integer>       <read pair trim length>                 default (no trimming)
--l_r1   <integer>       <read 1 trim length>                    default (no trimming)
--l_r2   <integer>       <read 2 trim length>                    default (no trimming)
+-l      <integer>       <read pair length	                default (no trimming)
+-l_r1   <integer>       <read 1 length>         	        default (no trimming)
+-l_r2   <integer>       <read 2 length		                default (no trimming)
 
 -e      <33 / 64>       <quality encoding>                      default (33)
 -q      <integer>       <minimum base quality score>            default (20)
@@ -88,7 +88,7 @@ Note:
 1) Use either -s Or (-s_r1 and -s_r2); either -l Or (-l_r1 and -l_r2)
 2) The input files must be in fastq format & they must be paired
 3) Gzipped fastq files are also accepted as inputs
-4) Values of -l Or (-l_r1 and -l_r2) must be <= Read Length
+4) Values of -l Or (-l_r1 and -l_r2) must be <= (Read Length - s (or s_r1, s_r2)) 
 
 ------------------------------------------------------------------------------------------
 
