@@ -63,7 +63,7 @@ elsif(defined $l_r1 && defined $l_r2){
 #--------------------------------------------[OPENING INPUT FASTQ FILES]------------------------------------------
 
 $T0=localtime();
-print "$T0\tPaired-End Read Preprocessing Has Begum\n";
+print "$T0\tPaired-End Read Preprocessing Has Begun\n";
 
 $gzip_R1 = grep(/\.gz/, $ARGV[0]);
 $gzip_R2 = grep(/\.gz/, $ARGV[1]);
