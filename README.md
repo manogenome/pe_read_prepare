@@ -1,6 +1,6 @@
 # PE READ PREPARE: A paired-end preprocessing script for de novo genome assembly
-## DOI: 10.5281/zenodo.165863
 ## Manojkumar Selvaraju
+[![DOI](https://zenodo.org/badge/10569532.svg)](https://zenodo.org/badge/latestdoi/10569532)
 
 ###### Introduction:
 Quality filtering of raw data forms the primary step in NGS data analysis. This script combines the features of popular quality filtering tools like FASTX-toolkits. Commonly, reads from a paired-end data are pre-processed separately and paired later for downstream analysis. This kind of analysis has the following pros and cons.
