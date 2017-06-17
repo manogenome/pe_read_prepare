@@ -1,5 +1,5 @@
-# PE READ PREPARE: A paired-end preprocessing script for de novo genome assembly
-## Manojkumar Selvaraju
+### PE READ PREPARE: A paired-end preprocessing script for de novo genome assembly
+#### Manojkumar Selvaraju
 [![DOI](https://zenodo.org/badge/10569532.svg)](https://zenodo.org/badge/latestdoi/10569532)
 
 ###### Introduction:
